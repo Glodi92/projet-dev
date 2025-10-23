@@ -4,58 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> mon projet</title>
+    <link rel="stylesheet" href="accueil.css">
 </head>
 <body>
-    <header>
+    <header class="site-header">
         <h1>Glodi Zola Lutumba</h1>
-        <nav>
+        <nav class="nav-bar">
             <ul>
                 <li><a href="cv.html">cv</a></li>
                 <li><a href="projet.html">projet</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
         </nav>
-    </header>    
-    <main>
-        <section>
-            <div>
-                <img src="./Mes images/Screenshot_20241026-175829_Lite~2.jpg" alt="mon profil">
+    </header> 
+
+    <main class="main-contener">
+        <div class="hero-section">
+            <div class="my-profil-contener">
+                <img src="./Mes images/Screenshot_20241026-175829_Lite~2.jpg" alt="mon profil" class="profil-image">
             </div>
 
-            <div>
-                <div>
-                    <h2>Hello</h2>
+            <div class="text-content">
+                <h2>Hello</h2>
+                <div class="about-me">
                     <h3>A propos de moi</h3>
                     <p>Je suis <strong>Glodi Zola</strong>, un developpeur web passionné doté d'une créativité débordante et d'un talent pour concrétiser les idées en expériences numériques interactives.</p>
                 </div>
 
-                <div>
-                    <li><a href="cv.html">cv</a></li>
-                    <li><a href="projet.html">projet</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                <div class="button-action">
+                    <a href="cv.html" class="button-yellow">cv</a>
+                    <a href="projet.html" class="button-red">projet</a>
+                    <a href="contact.html" class="button-green">contact</a>
                 </div>
                 
             </div>
         </section>
+        <hr>
     </main>
-    <footer>
-        <div>
-            <hr>
-            <h4>Téléphone</h4>
+
+    <footer class="footer-zone">
+        <div class="footer-item">
+            <h4 class="label">Téléphone</h4>
             <p>+243975076215</p>
         </div>
 
-        <div>
-            <h4>Email</h4>
+        <div class="footer-item">
+            <h4 class="label">Email</h4>
             <p>zolaglody@gmail.com</p>  
         </div>
        
         <div>
-            <h4>suivez-moi</h4>
-            <div class=""></div>
-            <img class="my_link_profil" src="../Glodi projet dev/instagram-computer-icons-logo-clip-art-instagram-ef93bcdcbea406a4e9e1886a8222c543.png" alt="logo instagram">
-            <img class="my_link_profil" src="../Glodi projet dev/linkedin-icon-linkedin-png-image-0106a8885747008894ca5155be3cfd9a.png" alt="logo linkedin">
-            <img class="my_link_profil" src="../Glodi projet dev/silhouette-computer-icons-twitter-clip-art-twitter-b4ce8caff9dfebcdbd2f013dcf9b6430.png" alt="logo twitter">
+            <h4 class="label-follow">suivez-moi</h4>
+            <div class="link-section">
+                <img src="../Glodi projet dev/instagram-computer-icons-logo-clip-art-instagram-ef93bcdcbea406a4e9e1886a8222c543.png" alt="logo instagram" class="my_link_instagram" >
+                <img src="../Glodi projet dev/linkedin-icon-linkedin-png-image-0106a8885747008894ca5155be3cfd9a.png" alt="logo linkedin" class="my_link_linkedin">
+                <img src="../Glodi projet dev/silhouette-computer-icons-twitter-clip-art-twitter-b4ce8caff9dfebcdbd2f013dcf9b6430.png" alt="logo twitter" class="my_link_twitter">
+            </div>
+            
         </div>
 
         <p>&copy; 2025 Glodi Zola</p>
