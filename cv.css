@@ -1,0 +1,261 @@
+*{
+    margin: 0;  
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 20px 40px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+/* style de la partie header */
+
+.cv-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    
+}
+
+.profil-header{
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+
+}
+.nav-bar ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    gap: 20PX;
+    font-size: 1rem;
+}
+h1{
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+}
+nav li{
+    margin: 0 10px;
+}
+nav li:not(:last-child)::after{
+    content: "|";
+    display: inline-block;
+    width: 1px;
+    height: 1rem;
+    background-color: white;
+    margin-left: 20px;
+}
+/* syle du main */
+
+.main-contener{
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+}
+.cv-title{
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 3rem;
+}
+.experiences-contener{
+    margin-top: 70px;
+
+}
+.experiences-contener h3{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+.experience-one{
+   margin-top: 15px;
+   
+}
+
+.experience-brand{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.experience-brand h4{
+    font-size: 1.2rem;
+    margin-top: 15px;
+
+    
+}
+.bank-brand strong{
+    font-size: 1rem;
+}
+.bank-brand p{
+    font-size: 1rem;
+}
+.experience-data{
+    margin-top: 15px;
+    
+}
+.data-entry{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.data-entry h4{
+    font-size: 1.2rem;
+    margin-top: 15px;
+    
+}
+.lux-data ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+.adm-contener{
+    margin-top: 15px;
+    
+}
+.sec-adm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.sec-adm h4{
+    font-size: 1.2rem;
+    margin-top: 15px;
+
+}
+.secretary ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+.etude-section{
+    margin-top: 70px;
+     
+}
+.etude-section h3{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: auto;
+}
+.graduation{
+    margin-top: 15px;
+}
+.university-graduation{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.university-graduation h4{
+    font-size: 1.2rem;
+    margin-top: 15px;
+
+}
+.state-graduation{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.state-graduation h4{
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+.formation-section{
+     margin-top: 70px;
+
+}
+.formation-section h3{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin: auto;
+
+}
+.develop-full{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.develop-full h4{
+    font-size: 1.2rem;
+    margin-top: 15px;
+
+}
+.kadea-full ul{
+    text-decoration: none;
+    list-style: none;
+}
+.analyste{
+    margin-top: 15px;
+
+}
+.analyste-data{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.analyste-data h4{
+    font-size: 1.2rem;
+    margin-top: 15px;
+
+}
+
+
+
+
+
+
+/* style du footer */
+
+.footer-zone{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-top: 1px black solid;
+
+}
+.footer-item{
+    padding: 10px;
+    
+}
+.footer-item-label{
+    font-size: 1.5rem;
+    color: black;
+    
+}
+.label-follow{
+    font-size: 1rem;
+}
+.link-section{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+.label-follow{
+    padding: 10px;
+    
+}
+img.my_link_instagram{
+    width: 15px;
+    height: 15px;
+}
+img.my_link_linkedin{
+    width: 15px;
+    height: 15px;
+}
+img.my_link_twitter{
+    width: 15px;
+    height: 15px;
+}
+    
