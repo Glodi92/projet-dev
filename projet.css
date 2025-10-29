@@ -1,0 +1,152 @@
+*{
+    margin: 0;  
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: 20px 40px;
+    padding: 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+/* style de la partie header */
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    
+
+}
+.nav-bar ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    gap: 20PX;
+    font-size: 1rem;
+}
+h1{
+    font-size: 3rem;
+    color: black;
+    background-color: white;
+}
+nav li{
+    margin: 0 10px;
+}
+nav li:not(:last-child)::after{
+    content: "|";
+    display: inline-block;
+    width: 1px;
+    height: 1rem;
+    background-color: white;
+    margin-left: 20px;
+}
+/* style de la partie maim */
+
+.main-contener{
+    padding: 20px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.norman-contener{
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.norman-contener h2{
+    font-size: 2rem;
+    text-decoration: underline;
+   
+}
+.norman-projet{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;  
+}
+.norman-image{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    
+}
+.norman-projet p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+.sunnyside-contener{
+    align-items: center;
+    margin-top: 70px;
+}
+.sunnyside-contener h2{
+    font-size: 2rem;
+    text-decoration: underline;
+
+}
+.sunnyside-projet{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px; 
+}
+.sunnyside-projet p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: justify;
+}
+.sunnyside-image{
+    width: 400px;
+    height: 600px;
+}
+
+/* style du footer */
+
+.footer-zone{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    border-top: 1px black solid;
+
+}
+.footer-item{
+    padding: 10px;
+    
+}
+.footer-item-label{
+    font-size: 1.5rem;
+    color: black;
+    
+}
+.label-follow{
+    font-size: 1rem;
+}
+.link-section{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+.label-follow{
+    padding: 10px;
+    
+}
+img.my_link_instagram{
+    width: 15px;
+    height: 15px;
+}
+img.my_link_linkedin{
+    width: 15px;
+    height: 15px;
+}
+img.my_link_twitter{
+    width: 15px;
+    height: 15px;
+}
